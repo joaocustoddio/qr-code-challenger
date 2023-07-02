@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+:root{
+    --cor--fundo: 	#d6e2f0;
+    --cor--titulo:	#1f3251;
+    --cor--mensagem:  #7b879d;
+    --cor--card: #ffffff;
+    --fonte--texto:  'Outfit', sans-serif;
+}
+
+body{
+    background-color: var(--cor--fundo);
+    height: 100vh;
+    display: flex;
+}
+
+.card{
+    background-color: var(--cor--card);
+    width: 300px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: auto;
+}
+
+.card__imagem{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.texto__titulo{
+    color: var(--cor--titulo);
+    font-family: var(--fonte--texto);
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto__text{
+    color: var(--cor--mensagem);
+    font-family: var(--fonte--texto) ;
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+}
